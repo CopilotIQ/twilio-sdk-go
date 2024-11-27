@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/RJPearson94/twilio-sdk-go/studio/flow"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/studio/flow"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 // FlowFlags are the advanced features configuration for the Studio Flow

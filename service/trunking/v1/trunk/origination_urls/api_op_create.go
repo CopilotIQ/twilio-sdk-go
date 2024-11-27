@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
 )
 
 // CreateOriginationURLInput defines the input fields for creating a new origination url resource

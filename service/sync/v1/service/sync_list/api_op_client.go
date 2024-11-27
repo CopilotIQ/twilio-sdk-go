@@ -2,11 +2,11 @@
 package sync_list
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_list/item"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_list/items"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_list/permission"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_list/permissions"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_list/item"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_list/items"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_list/permission"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_list/permissions"
 )
 
 // Client for managing a specific list resource

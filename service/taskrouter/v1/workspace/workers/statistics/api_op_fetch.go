@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 // FetchStatisticsOptions defines the query options for the api operation

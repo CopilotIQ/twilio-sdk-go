@@ -8,15 +8,15 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_hook"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_hooks"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_settings"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/recording_settings"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/room"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/rooms"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_hook"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_hooks"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_settings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/recording_settings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/room"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/rooms"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var _ = Describe("Video Acceptance Tests", func() {

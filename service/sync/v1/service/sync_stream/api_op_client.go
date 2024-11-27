@@ -2,8 +2,8 @@
 package sync_stream
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_stream/messages"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_stream/messages"
 )
 
 // Client for managing a specific stream resource

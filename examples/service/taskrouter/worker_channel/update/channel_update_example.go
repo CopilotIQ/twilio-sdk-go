@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channel"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channel"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var taskrouterClient *v1.TaskRouter

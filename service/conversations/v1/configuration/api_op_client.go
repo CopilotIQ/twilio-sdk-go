@@ -2,10 +2,10 @@
 package configuration
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/configuration/address"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/configuration/addresses"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/configuration/webhook"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/configuration/address"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/configuration/addresses"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/configuration/webhook"
 )
 
 // Client for managing conversation configuration

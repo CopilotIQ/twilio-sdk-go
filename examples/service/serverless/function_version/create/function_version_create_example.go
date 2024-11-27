@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/serverless/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/function/versions"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/serverless/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/service/serverless/v1/service/function/versions"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var serverlessClient *v1.Serverless

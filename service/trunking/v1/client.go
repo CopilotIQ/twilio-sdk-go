@@ -2,10 +2,10 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/trunking/v1/trunk"
-	"github.com/RJPearson94/twilio-sdk-go/service/trunking/v1/trunks"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/trunking/v1/trunk"
+	"github.com/CopilotIQ/twilio-sdk-go/service/trunking/v1/trunks"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Trunking client is used to manage resources for Twilio SIP Trunking

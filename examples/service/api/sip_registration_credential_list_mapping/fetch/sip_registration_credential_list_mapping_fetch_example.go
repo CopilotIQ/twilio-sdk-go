@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2010 "github.com/RJPearson94/twilio-sdk-go/service/api/v2010"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2010 "github.com/CopilotIQ/twilio-sdk-go/service/api/v2010"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var apiClient *v2010.V2010

@@ -2,13 +2,13 @@
 package conversation
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/message"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/messages"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/participant"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/participants"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/webhook"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation/webhooks"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/message"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/messages"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/participant"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/participants"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/webhook"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation/webhooks"
 )
 
 // Client for managing a specific conversation resource

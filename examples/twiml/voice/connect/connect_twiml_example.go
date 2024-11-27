@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/RJPearson94/twilio-sdk-go/twiml"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml"
 )
 
 var twimlClient *twiml.TwiML

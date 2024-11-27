@@ -1,9 +1,9 @@
 package conversations
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/conversations/v1"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Conversations client is used to manage versioned resources for Twilio Conversations

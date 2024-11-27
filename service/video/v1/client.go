@@ -2,18 +2,18 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_hook"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_hooks"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/composition_settings"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/compositions"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/recording"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/recording_settings"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/recordings"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/room"
-	"github.com/RJPearson94/twilio-sdk-go/service/video/v1/rooms"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_hook"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_hooks"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/composition_settings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/compositions"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/recording"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/recording_settings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/recordings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/room"
+	"github.com/CopilotIQ/twilio-sdk-go/service/video/v1/rooms"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Video client is used to manage resources for Programmable Video

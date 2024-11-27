@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/RJPearson94/twilio-sdk-go/twiml/fax"
-	"github.com/RJPearson94/twilio-sdk-go/twiml/fax/verbs"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/fax"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/fax/verbs"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

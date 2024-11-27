@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2 "github.com/RJPearson94/twilio-sdk-go/service/verify/v2"
-	"github.com/RJPearson94/twilio-sdk-go/service/verify/v2/service/rate_limit"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2 "github.com/CopilotIQ/twilio-sdk-go/service/verify/v2"
+	"github.com/CopilotIQ/twilio-sdk-go/service/verify/v2/service/rate_limit"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var verifyClient *v2.Verify

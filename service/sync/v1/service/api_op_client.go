@@ -2,15 +2,15 @@
 package service
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/document"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/documents"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_list"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_lists"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_map"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_maps"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_stream"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/sync_streams"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/document"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/documents"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_list"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_lists"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_map"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_maps"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_stream"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/sync_streams"
 )
 
 // Client for managing a specific service resource

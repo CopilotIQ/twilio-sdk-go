@@ -5,7 +5,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
 )
 
 // FetchStatusResponse defines the response fields for the retrieved build status

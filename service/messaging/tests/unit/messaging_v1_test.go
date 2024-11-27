@@ -11,16 +11,16 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/alpha_senders"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/short_codes"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/services"
-	"github.com/RJPearson94/twilio-sdk-go/session"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/alpha_senders"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/short_codes"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/services"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var _ = Describe("Messaging V1", func() {

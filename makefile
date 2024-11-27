@@ -10,34 +10,19 @@ download:
 build: fmt generate
 	go install
 
-test: fmt generate
-	go test $(TESTARGS) -timeout=30s -parallel=4 $(TEST) -tags=unit
+test:
+	go test `go list ./...`
 
-testacc: fmt generate
-	go test $(TESTARGS) -timeout=30s -parallel=4 $(TEST) -tags=acceptance
+test-cover:
+	mkdir -p coverage
+	go test `go list ./...` -covermode=count -coverprofile=coverage/coverage.out
 
-fmt:
-	@echo "==> Fixing source code with goimports (uses gofmt under the hood)..."
-	goimports -w .
-
-tools:
-	@echo "==> installing required tooling..."
-	cd tools && go mod vendor
-	GO111MODULE=off go get -u golang.org/x/tools/cmd/goimports
-	GO111MODULE=off go get -u github.com/client9/misspell/cmd/misspell
-	GO111MODULE=off go get -u github.com/gordonklaus/ineffassign
-	GO111MODULE=off go get -u github.com/gojp/goreportcard/cmd/goreportcard-cli
-
-reportcard:
-	@echo "==> running go report card"
-	goreportcard-cli
+coverage-report: test-cover
+	go tool cover -html=coverage/coverage.out
 
 goreportcard-refresh:
 	@echo "==> refresh goreportcard checks"
 	curl -X POST -F "repo=github.com/RJPearson94/twilio-sdk-go" https://goreportcard.com/checks
-
-generate:
-	go generate  ./...
 
 generate-service-api-version:
 	@echo "==> regenerating $(SERVICE) $(API_VERSION)"

@@ -5,8 +5,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 // FetchParticipantResponse defines the response fields for retrieving a participant

@@ -2,20 +2,20 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/configuration"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversation"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/conversations"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/credential"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/role"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/roles"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/services"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/user"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/users"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/webhook"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/configuration"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversation"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/conversations"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/credential"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/role"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/roles"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/services"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/user"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/users"
+	"github.com/CopilotIQ/twilio-sdk-go/service/conversations/v1/webhook"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Conversations client is used to manage resources for Twilio Conversations

@@ -9,11 +9,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/services"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/services"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var _ = Describe("Messaging Acceptance Tests", func() {

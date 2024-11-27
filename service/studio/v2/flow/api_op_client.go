@@ -2,12 +2,12 @@
 package flow
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/execution"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/executions"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/revision"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/revisions"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/test_users"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/execution"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/executions"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/revision"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/revisions"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/test_users"
 )
 
 // Client for managing a specific flow resource

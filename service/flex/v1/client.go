@@ -2,21 +2,21 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/channel"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/channels"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/configuration"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/flex_flow"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/flex_flows"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin_configuration"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin_configurations"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin_release"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin_releases"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugins"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/web_channel"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/web_channels"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/channel"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/channels"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/configuration"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/flex_flow"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/flex_flows"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugin"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugin_configuration"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugin_configurations"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugin_release"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugin_releases"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/plugins"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/web_channel"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/web_channels"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Flex client is used to manage resources for Twilio Flex

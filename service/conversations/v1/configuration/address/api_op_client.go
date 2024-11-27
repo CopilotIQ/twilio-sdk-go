@@ -1,7 +1,7 @@
 // Package address contains auto-generated files. DO NOT MODIFY
 package address
 
-import "github.com/RJPearson94/twilio-sdk-go/client"
+import "github.com/CopilotIQ/twilio-sdk-go/client"
 
 // Client for managing a specific address configuration resource
 // See https://www.twilio.com/docs/conversations/api/address-configuration-resource for more details

@@ -2,9 +2,9 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/lookups/v1/phone_number"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/lookups/v1/phone_number"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Lookups client is used to manage resources for Lookups

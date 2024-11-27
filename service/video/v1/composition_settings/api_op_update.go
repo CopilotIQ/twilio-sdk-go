@@ -5,7 +5,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
 )
 
 // UpdateCompositionSettingsInput defines input fields for updating composition settings

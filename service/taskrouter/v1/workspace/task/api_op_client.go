@@ -2,9 +2,9 @@
 package task
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/task/reservation"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/task/reservations"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/task/reservation"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/task/reservations"
 )
 
 // Client for managing a specific task resource

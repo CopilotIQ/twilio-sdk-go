@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -3,11 +3,11 @@ package tests
 import (
 	"io/ioutil"
 
-	"github.com/RJPearson94/twilio-sdk-go/studio/flow"
-	"github.com/RJPearson94/twilio-sdk-go/studio/properties"
-	"github.com/RJPearson94/twilio-sdk-go/studio/transition"
-	"github.com/RJPearson94/twilio-sdk-go/studio/widgets"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/studio/flow"
+	"github.com/CopilotIQ/twilio-sdk-go/studio/properties"
+	"github.com/CopilotIQ/twilio-sdk-go/studio/transition"
+	"github.com/CopilotIQ/twilio-sdk-go/studio/widgets"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

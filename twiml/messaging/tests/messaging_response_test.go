@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/RJPearson94/twilio-sdk-go/twiml/messaging/verbs"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/messaging/verbs"
 
-	"github.com/RJPearson94/twilio-sdk-go/twiml/messaging"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/messaging"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

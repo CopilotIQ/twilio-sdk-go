@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2010 "github.com/RJPearson94/twilio-sdk-go/service/api/v2010"
-	sipCredential "github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credential"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2010 "github.com/CopilotIQ/twilio-sdk-go/service/api/v2010"
+	sipCredential "github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credential"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 	"github.com/google/uuid"
 )
 

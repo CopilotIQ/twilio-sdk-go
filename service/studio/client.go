@@ -1,9 +1,9 @@
 package studio
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	v2 "github.com/RJPearson94/twilio-sdk-go/service/studio/v2"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	v2 "github.com/CopilotIQ/twilio-sdk-go/service/studio/v2"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Studio client is used to manage versioned resources for Twilio Studio

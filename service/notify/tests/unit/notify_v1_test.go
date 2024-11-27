@@ -11,17 +11,17 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	notifyClient "github.com/RJPearson94/twilio-sdk-go/service/notify"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/credential"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/service/bindings"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/service/notifications"
-	"github.com/RJPearson94/twilio-sdk-go/service/notify/v1/services"
-	"github.com/RJPearson94/twilio-sdk-go/session"
-	sessionCredentials "github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	notifyClient "github.com/CopilotIQ/twilio-sdk-go/service/notify"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/credential"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/service/bindings"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/service/notifications"
+	"github.com/CopilotIQ/twilio-sdk-go/service/notify/v1/services"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
+	sessionCredentials "github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var _ = Describe("Notify V1", func() {

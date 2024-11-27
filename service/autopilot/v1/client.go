@@ -2,10 +2,10 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/autopilot/v1/assistant"
-	"github.com/RJPearson94/twilio-sdk-go/service/autopilot/v1/assistants"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/autopilot/v1/assistant"
+	"github.com/CopilotIQ/twilio-sdk-go/service/autopilot/v1/assistants"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Autopilot client is used to manage resources for Twilio Autopilot

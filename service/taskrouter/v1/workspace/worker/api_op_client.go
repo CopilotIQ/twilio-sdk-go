@@ -2,12 +2,12 @@
 package worker
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channel"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channels"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/reservation"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/reservations"
-	"github.com/RJPearson94/twilio-sdk-go/service/taskrouter/v1/workspace/worker/statistics"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channel"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/channels"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/reservation"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/reservations"
+	"github.com/CopilotIQ/twilio-sdk-go/service/taskrouter/v1/workspace/worker/statistics"
 )
 
 // Client for managing a specific worker resource

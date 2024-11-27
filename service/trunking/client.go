@@ -1,9 +1,9 @@
 package trunking
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/trunking/v1"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/trunking/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Trunking client is used to manage versioned resources for Twilio Trunking

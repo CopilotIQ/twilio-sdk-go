@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/accounts/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/accounts/v1/credentials/public_keys"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/accounts/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/service/accounts/v1/credentials/public_keys"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var accountsClient *v1.Accounts

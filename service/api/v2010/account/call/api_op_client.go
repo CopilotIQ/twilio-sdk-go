@@ -2,11 +2,11 @@
 package call
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/call/feedback"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/call/feedbacks"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/call/recording"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/call/recordings"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/call/feedback"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/call/feedbacks"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/call/recording"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/call/recordings"
 )
 
 // Client for managing a specific call resource

@@ -2,9 +2,9 @@
 package credential_list
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credential"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credential"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/sip/credential_list/credentials"
 )
 
 // Client for managing a specific Credential List resource

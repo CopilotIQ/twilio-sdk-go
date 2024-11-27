@@ -2,9 +2,9 @@
 package document
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/document/permission"
-	"github.com/RJPearson94/twilio-sdk-go/service/sync/v1/service/document/permissions"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/document/permission"
+	"github.com/CopilotIQ/twilio-sdk-go/service/sync/v1/service/document/permissions"
 )
 
 // Client for managing a specific document resource

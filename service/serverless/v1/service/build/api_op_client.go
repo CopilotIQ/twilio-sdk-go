@@ -2,8 +2,8 @@
 package build
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/build/status"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/serverless/v1/service/build/status"
 )
 
 // Client for managing a specific build resource

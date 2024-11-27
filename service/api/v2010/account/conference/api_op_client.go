@@ -2,11 +2,11 @@
 package conference
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/conference/participant"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/conference/participants"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/conference/recording"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/conference/recordings"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/conference/participant"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/conference/participants"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/conference/recording"
+	"github.com/CopilotIQ/twilio-sdk-go/service/api/v2010/account/conference/recordings"
 )
 
 // Client for managing a specific conference resource

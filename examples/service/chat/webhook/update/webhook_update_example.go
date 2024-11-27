@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2 "github.com/RJPearson94/twilio-sdk-go/service/chat/v2"
-	"github.com/RJPearson94/twilio-sdk-go/service/chat/v2/service/channel/webhook"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2 "github.com/CopilotIQ/twilio-sdk-go/service/chat/v2"
+	"github.com/CopilotIQ/twilio-sdk-go/service/chat/v2/service/channel/webhook"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var chatClient *v2.Chat

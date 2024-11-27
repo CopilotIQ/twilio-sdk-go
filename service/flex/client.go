@@ -1,9 +1,9 @@
 package flex
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/flex/v1"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/flex/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Flex client is used to manage versioned resources for Twilio Flex

@@ -11,19 +11,19 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/execution"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/execution/steps"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/executions"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/revisions"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/test_users"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow_validation"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flows"
-	"github.com/RJPearson94/twilio-sdk-go/session"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/execution"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/execution/steps"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/executions"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/revisions"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/test_users"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow_validation"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flows"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var _ = Describe("Studio V2", func() {
@@ -518,7 +518,7 @@ var _ = Describe("Studio V2", func() {
 			createInput := &executions.CreateExecutionInput{
 				To:         "+18001234567",
 				From:       "+15017122661",
-				Parameters: utils.String("{\"name\": \"RJPearson94\"}"),
+				Parameters: utils.String("{\"name\": \"CopilotIQ\"}"),
 			}
 
 			httpmock.RegisterResponder("POST", "https://studio.twilio.com/v2/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions",
@@ -552,7 +552,7 @@ var _ = Describe("Studio V2", func() {
 		Describe("When the execution does not contain a to", func() {
 			createInput := &executions.CreateExecutionInput{
 				From:       "+15017122661",
-				Parameters: utils.String("{\"name\": \"RJPearson94\"}"),
+				Parameters: utils.String("{\"name\": \"CopilotIQ\"}"),
 			}
 
 			resp, err := executionsClient.Create(createInput)
@@ -568,7 +568,7 @@ var _ = Describe("Studio V2", func() {
 		Describe("When the execution does not contain a from", func() {
 			createInput := &executions.CreateExecutionInput{
 				To:         "+15017122661",
-				Parameters: utils.String("{\"name\": \"RJPearson94\"}"),
+				Parameters: utils.String("{\"name\": \"CopilotIQ\"}"),
 			}
 
 			resp, err := executionsClient.Create(createInput)
@@ -585,7 +585,7 @@ var _ = Describe("Studio V2", func() {
 			createInput := &executions.CreateExecutionInput{
 				To:         "+18001234567",
 				From:       "+15017122661",
-				Parameters: utils.String("{\"name\": \"RJPearson94\"}"),
+				Parameters: utils.String("{\"name\": \"CopilotIQ\"}"),
 			}
 
 			httpmock.RegisterResponder("POST", "https://studio.twilio.com/v2/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions",

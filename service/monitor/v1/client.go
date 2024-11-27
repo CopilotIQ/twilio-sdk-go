@@ -2,12 +2,12 @@
 package v1
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/monitor/v1/alert"
-	"github.com/RJPearson94/twilio-sdk-go/service/monitor/v1/alerts"
-	"github.com/RJPearson94/twilio-sdk-go/service/monitor/v1/event"
-	"github.com/RJPearson94/twilio-sdk-go/service/monitor/v1/events"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/monitor/v1/alert"
+	"github.com/CopilotIQ/twilio-sdk-go/service/monitor/v1/alerts"
+	"github.com/CopilotIQ/twilio-sdk-go/service/monitor/v1/event"
+	"github.com/CopilotIQ/twilio-sdk-go/service/monitor/v1/events"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Monitor client is used to manage resources for Twilio Monitor

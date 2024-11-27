@@ -1,7 +1,7 @@
 // Package dialogue contains auto-generated files. DO NOT MODIFY
 package dialogue
 
-import "github.com/RJPearson94/twilio-sdk-go/client"
+import "github.com/CopilotIQ/twilio-sdk-go/client"
 
 // Client for managing a specific dialogue resource
 // See https://www.twilio.com/docs/autopilot/api/dialogue for more details

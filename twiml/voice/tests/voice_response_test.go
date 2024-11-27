@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/RJPearson94/twilio-sdk-go/twiml/voice"
-	"github.com/RJPearson94/twilio-sdk-go/twiml/voice/verbs"
-	"github.com/RJPearson94/twilio-sdk-go/twiml/voice/verbs/nouns"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/voice"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/voice/verbs"
+	"github.com/CopilotIQ/twilio-sdk-go/twiml/voice/verbs/nouns"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -60,7 +60,7 @@ var _ = Describe("Voice Response TwiML", func() {
 			response := voice.New()
 			connect := response.ConnectWithAttributes(verbs.ConnectAttributes{})
 			connect.RoomWithAttributes(nouns.RoomAttributes{
-				ParticipantIdentity: utils.String("RJPearson94"),
+				ParticipantIdentity: utils.String("CopilotIQ"),
 			}, "HelloWorld")
 			twiML, err := response.ToTwiML()
 
@@ -183,7 +183,7 @@ var _ = Describe("Voice Response TwiML", func() {
 
 			response := voice.New()
 			dial := response.Dial(nil)
-			dial.Client(utils.String("RJPearson94"))
+			dial.Client(utils.String("CopilotIQ"))
 			twiML, err := response.ToTwiML()
 
 			It("Then no error should be returned", func() {
@@ -205,7 +205,7 @@ var _ = Describe("Voice Response TwiML", func() {
 			dial.ClientWithAttributes(nouns.ClientAttributes{
 				StatusCallbackEvent: utils.String("initiated ringing"),
 				StatusCallback:      utils.String("http://localhost/callback"),
-			}, utils.String("RJPearson94"))
+			}, utils.String("CopilotIQ"))
 			twiML, err := response.ToTwiML()
 
 			It("Then no error should be returned", func() {
@@ -225,7 +225,7 @@ var _ = Describe("Voice Response TwiML", func() {
 			response := voice.New()
 			dial := response.Dial(nil)
 			client := dial.Client(nil)
-			client.Identity("RJPearson94")
+			client.Identity("CopilotIQ")
 			client.Parameter()
 			twiML, err := response.ToTwiML()
 
@@ -246,7 +246,7 @@ var _ = Describe("Voice Response TwiML", func() {
 			response := voice.New()
 			dial := response.Dial(nil)
 			client := dial.Client(nil)
-			client.Identity("RJPearson94")
+			client.Identity("CopilotIQ")
 			client.ParameterWithAttributes(nouns.ParameterAttributes{
 				Name:  utils.String("VIP"),
 				Value: utils.String("true"),
@@ -272,7 +272,7 @@ var _ = Describe("Voice Response TwiML", func() {
 				CallerID: utils.String("+4151234567"),
 			}, nil)
 			dial.Number("415-123-9876")
-			dial.Client(utils.String("RJPearson94"))
+			dial.Client(utils.String("CopilotIQ"))
 			dial.Client(utils.String("Rob"))
 			twiML, err := response.ToTwiML()
 

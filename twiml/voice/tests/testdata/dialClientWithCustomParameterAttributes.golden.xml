@@ -2,7 +2,7 @@
 <Response>
   <Dial>
     <Client>
-      <Identity>RJPearson94</Identity>
+      <Identity>CopilotIQ</Identity>
       <Parameter name="VIP" value="true"></Parameter>
     </Client>
   </Dial>

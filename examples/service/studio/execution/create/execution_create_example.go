@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2 "github.com/RJPearson94/twilio-sdk-go/service/studio/v2"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow/executions"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/utils"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2 "github.com/CopilotIQ/twilio-sdk-go/service/studio/v2"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow/executions"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/utils"
 )
 
 var studioClient *v2.Studio
@@ -32,7 +32,7 @@ func main() {
 		Create(&executions.CreateExecutionInput{
 			To:         "+18001234567",
 			From:       "+15017122661",
-			Parameters: utils.String("{\"name\": \"RJPearson94\"}"),
+			Parameters: utils.String("{\"name\": \"CopilotIQ\"}"),
 		})
 
 	if err != nil {

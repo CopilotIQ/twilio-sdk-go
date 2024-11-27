@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/messaging/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var messagingClient *v1.Messaging

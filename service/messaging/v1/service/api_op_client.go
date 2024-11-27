@@ -2,13 +2,13 @@
 package service
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/alpha_sender"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/alpha_senders"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/phone_number"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/short_code"
-	"github.com/RJPearson94/twilio-sdk-go/service/messaging/v1/service/short_codes"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/alpha_sender"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/alpha_senders"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/phone_number"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/phone_numbers"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/short_code"
+	"github.com/CopilotIQ/twilio-sdk-go/service/messaging/v1/service/short_codes"
 )
 
 // Client for managing a specific service resource

@@ -2,10 +2,10 @@
 package v2
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/verify/v2/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/verify/v2/services"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/verify/v2/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/verify/v2/services"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Verify client is used to manage resources for Twilio Verify

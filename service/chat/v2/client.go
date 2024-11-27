@@ -2,12 +2,12 @@
 package v2
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/client"
-	"github.com/RJPearson94/twilio-sdk-go/service/chat/v2/credential"
-	"github.com/RJPearson94/twilio-sdk-go/service/chat/v2/credentials"
-	"github.com/RJPearson94/twilio-sdk-go/service/chat/v2/service"
-	"github.com/RJPearson94/twilio-sdk-go/service/chat/v2/services"
-	"github.com/RJPearson94/twilio-sdk-go/session"
+	"github.com/CopilotIQ/twilio-sdk-go/client"
+	"github.com/CopilotIQ/twilio-sdk-go/service/chat/v2/credential"
+	"github.com/CopilotIQ/twilio-sdk-go/service/chat/v2/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go/service/chat/v2/service"
+	"github.com/CopilotIQ/twilio-sdk-go/service/chat/v2/services"
+	"github.com/CopilotIQ/twilio-sdk-go/session"
 )
 
 // Chat client is used to manage resources for Programmable Chat

@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v1 "github.com/RJPearson94/twilio-sdk-go/service/flex/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/channels"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v1 "github.com/CopilotIQ/twilio-sdk-go/service/flex/v1"
+	"github.com/CopilotIQ/twilio-sdk-go/service/flex/v1/channels"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var flexClient *v1.Flex

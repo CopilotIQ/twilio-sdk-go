@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/RJPearson94/twilio-sdk-go"
-	v2 "github.com/RJPearson94/twilio-sdk-go/service/studio/v2"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow_validation"
-	"github.com/RJPearson94/twilio-sdk-go/session/credentials"
+	"github.com/CopilotIQ/twilio-sdk-go"
+	v2 "github.com/CopilotIQ/twilio-sdk-go/service/studio/v2"
+	"github.com/CopilotIQ/twilio-sdk-go/service/studio/v2/flow_validation"
+	"github.com/CopilotIQ/twilio-sdk-go/session/credentials"
 )
 
 var studioClient *v2.Studio
