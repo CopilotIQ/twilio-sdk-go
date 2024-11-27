@@ -26,3 +26,5 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/RJPearson94/twilio-sdk-go => github.com/CopilotIQ/twilio-sdk-go v0.0.0-20221220124305-2b93b0477990
