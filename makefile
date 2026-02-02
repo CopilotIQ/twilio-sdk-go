@@ -17,6 +17,9 @@ test-cover:
 	mkdir -p coverage
 	go test `go list ./...` -covermode=count -coverprofile=coverage/coverage.out
 
+update: 
+	go get -u `go list ./...`
+
 coverage-report: test-cover
 	go tool cover -html=coverage/coverage.out
 
